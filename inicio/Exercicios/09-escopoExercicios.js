@@ -15,8 +15,6 @@ function somarDois(x) {
     return x + dois
 }
 
-console.log()
-
 function dividirDois(x) {
     return x / dois
 }

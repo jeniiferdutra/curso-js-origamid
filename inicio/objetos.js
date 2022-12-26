@@ -63,7 +63,7 @@ var bg = menu.backgroundColor // '#84E'
 // THIS, irá fazer uma referência ao proprio objeto
 
 var height = 128
-var mennu = {
+var menu = {
     width: 800,
     height: 50,
     metadeHeight() {
