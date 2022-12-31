@@ -2,7 +2,6 @@
 
 
 
-
 // Mostre o texto dos parágrafos no console
 
 
@@ -11,13 +10,15 @@
 
 const imgs = document.querySelectorAll('img')
 
-imgs.forEach(( index) => {
-    console.log( index)
+imgs.forEach((item, index) => {
+    console.log(item, index)
 })
 
 let i = 0
-imgs.forEach( () => {
-    console.log(i++)
+imgs.forEach(() => {
+   console.log(i++)
 })
 
 imgs.forEach(() => i++)
+
+console.log(i)
